@@ -1,4 +1,4 @@
-# sample-parcel
+# react-parcel
 
 ## ENV
 ```
@@ -24,15 +24,12 @@ $ npm run prod
 ```
 
 ## Notice
-* Automatically install related module if entry point import files
-	* put .postcssrc and 'npm run dev', then automatically install postcss-modules
+* This repository is derived from [hirokisan/sample-parcel](https://github.com/hirokisan/sample-parcel)
+	* If have some change on [hirokisan/sample-parcel](https://github.com/hirokisan/sample-parcel), please rebase with it for use.
 
 ## TODO
-* [ ] Export and Import, best practice
-* [ ] Use react
 
 ## Task
-* [ ] [Transforms](https://parceljs.org/transforms.html)
 
 ## REF
 * [Getting Started](https://parceljs.org/getting_started.html)
