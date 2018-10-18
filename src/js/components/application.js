@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import styles from '../../css/components/application.css';
 
 /* Functional Component */
 //const Application = (props) => (
@@ -35,7 +36,7 @@ class Application extends Component {
     let h1 = this.state.h1;
 
     return (
-      <h1 onClick={this.onClick}>{ h1 }</h1>
+      <h1 onClick={this.onClick} className={ styles.h1 }>{ h1 }</h1>
     )
   }
 }
