@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+/* Functional Component */
+//const Application = (props) => (
+//  <h1>{ props.h1 }</h1>
+//)
+
+/* Class Component */
 class Application extends Component {
 
   /* Init */
